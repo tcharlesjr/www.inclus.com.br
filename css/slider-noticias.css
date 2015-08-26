@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+#slidernoticias_container {
+    position: relative;
+    width: 750px;
+    height: 350px;
+}
+
+#slidesnoticias {
+    cursor: move;
+    top: 0px;
+    position: absolute;
+    width: 750px;;
+    height: 350px;
+    overflow: hidden;
+    background-color: #283744;
+}
+
+#thumbnavigator {
+    top: 51px;
+    right: 0px;
+}
+
+#thumbslides {
+    cursor: default;
+}
+
+#thumbprototype {
+    top: 0;
+    left: 0;
+}
+
+.jssort11 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-right: -30px;
+}
+
+.jssort11 .p {
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 71px;
+    transition: all 500ms ease;
+    border-radius: 10px 0px 0px 10px;
+    background-color : rgba(40, 55, 68, 0.65);
+}
+
+.jssort11 .tp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.jssort11 .i, .jssort11 .pav:hover .i {
+    position: absolute;
+    top: 0px;
+    right: -60px;
+    width: 180px;
+    height: 72px;
+    box-shadow: 2px 0px 15px white;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.jssort11 .i {
+    opacity:0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=5);
+}
+
+* html .jssort11 .i {
+    width: 62px;
+    height: 32px;
+}
+
+.jssort11 .t, .jssort11 .pav:hover .t {
+    position: absolute;
+    top: 3px;
+    left: 18px;
+    width: 90%;
+    height: 32px;
+    padding-right: 200px;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jssort11 .pav .t, .jssort11 .p:hover .t {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.jssort11 .c, .jssort11 .pav:hover .c {
+    position: absolute;
+    bottom: 5px;
+    left: 18px;
+    width: 90%;
+    height: 30px;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jssort11 .pav .c, .jssort11 .p:hover .c {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.jssort11 .t, .jssort11 .c {
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.jssort11 .p:hover .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .pav:hover .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+.jssort11 .p:hover, .jssort11 .pav:hover {
+    background: rgba(20, 153, 255, 0.89);
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+    text-shadow: 0px 0px 10px white, 0px 0px 10px white;
+}
+
+.jssort11 .pav, .jssort11 .p.pdn{
+    background: rgba(19, 84, 145, 0.71);
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.previa-noticia {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 90%;
+    font-size: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px white, 0px 0px 20px black;
+    background-color: rgba(0, 0, 0, .6);
+}
