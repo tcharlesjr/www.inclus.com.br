@@ -1,0 +1,9 @@
+<!-- css -->
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/barra-menu.css">
+<link rel="stylesheet" href="css/social-estilo.css">
+<link rel="stylesheet" href="css/social-fonts.css">
+<link rel="stylesheet" href="css/slider-banner.css">
+<link rel="stylesheet" href="css/slider-noticias.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/responsividade.css">
