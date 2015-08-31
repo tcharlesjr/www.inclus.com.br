@@ -189,8 +189,14 @@
                     (83) 3361-2053<br/>
                     projetoinclus@gmail.com<br/>
                     www.inclus.com.br</p>
-            </footer>
 
+            </footer>
+           
+            <!-- Apoio -->
+            <div class="prop">
+                <br />
+                <img src="img/logos/logo-charles.png" />
+            </div>
         </div>
     </body>
 </html>

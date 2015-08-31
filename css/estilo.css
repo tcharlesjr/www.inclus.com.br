@@ -54,3 +54,14 @@ body {
     width:100%;
     height:100%;
 }
+
+.prop{
+    width: 960px;
+    background-color: #000;
+    margin: 0px auto;
+    position: absolute;
+    padding: 0px auto;
+    color: #FFF;
+    text-align: center;
+
+}
