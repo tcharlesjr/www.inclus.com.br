@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Home | Inclus</title>
+        <title>Home | Inclus - Teste</title>
         <link rel="shortcut icon" href="img/inclus10.png" type="image/x-icon"/>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
