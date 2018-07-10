@@ -13,7 +13,6 @@
 
     </head>
     <body>
-        <h2>Teste</h2>
         <!-- container -->
         <div class="container">
 
